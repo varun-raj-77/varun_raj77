@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(11, 11, 17, 0.884);
+    padding: 5px;
+    color: white;
+}
+h2{
+    color: rgba(53, 48, 48, 0.884);
+}
+p {
+    text-align: left;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding:5%;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.footer{
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(53, 47, 47) ;
+    padding: 0;
+    color: white;
+}

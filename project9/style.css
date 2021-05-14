@@ -1,0 +1,24 @@
+body { 
+    margin: 0;
+    font-family: sans-serif;
+}
+.header {
+    overflow: hidden;
+    background-color: #181411;
+    padding: 5px;
+    padding-top: 0;
+    color: white;
+    margin-top: 210px;
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px; 
+    border-radius: 10px;
+}
+.header-right {
+    float: right;
+}

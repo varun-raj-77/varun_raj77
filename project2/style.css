@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    color: rgb(90, 86, 86);
+}
+
+header{
+    background-color: rgb(53, 47, 47);
+    padding: 5px;
+    border-radius: 5%;
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(53, 47, 47) ;
+    padding: 0;
+    color: white;
+}
+
+a{
+    color: green;
+}

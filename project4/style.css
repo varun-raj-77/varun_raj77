@@ -1,0 +1,82 @@
+h2{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(25, 24, 59);
+    font-style: normal;
+}
+img{
+    width: 727px;
+    height: 350px;
+}
+.column {
+    float: left;
+    width: 45.33%;
+    padding: 1px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.first-txt {
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    color: rgb(25, 24, 59);
+}
+
+.second-txt {
+    position: absolute;
+    bottom: 400px;
+    left: 500px;
+    color: rgb(25, 24, 59);
+}
+.btn {
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    background-color: rgb(25, 24, 59);
+    color: white;
+    font-size: 16px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+h5{
+    position: absolute;
+    top: 68%;
+    left: 530px;
+    color: rgb(25, 24, 59);
+}
+h3{
+    text-align: center;
+    color: rgb(25, 24, 59);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-container > div {
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-left: 100px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(25, 24, 59);
+    font-weight: bolder;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color:rgba(21, 20, 37, 0.897) ;
+    padding: 0;
+    color: white;
+}
+.footer a{
+    color: white;
+}
